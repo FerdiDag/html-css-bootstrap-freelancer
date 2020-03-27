@@ -21,4 +21,47 @@ img {
 
 .nav.navbar-nav.navbar-right li a {
     color: white;
+    font-size: 18px;
+}
+
+#navbarcolor.colorme {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+
+}
+
+.line {
+    padding-bottom: 20px;
+}
+
+.stella {
+    position: relative;
+}
+
+.divider1 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    right: 50%;
+    margin-right: 20px;
+}
+
+.divider2 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: 20px;
 }
