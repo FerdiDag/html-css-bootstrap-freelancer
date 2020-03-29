@@ -40,6 +40,7 @@ h1 {
 .stella {
     position: relative;
     padding: 0 20px;
+    font-size: 25px;
 }
 
 .stella:before {
