@@ -2,15 +2,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
-    height: 300px;
-}
+
 
 .jumbotron {
     padding-top: 120px;
     background-color: #1abc9c;
     color: white;
 }
+
+.jumbotron img {
+
+    height: 300px;
+}
+
 
 .navbar {
     padding-top: 20px;
@@ -73,9 +77,12 @@ h2 {
 
 #portfolio img {
     padding-bottom: 20px;
-    border-radius: 10px;
+
+}
+
+#portfolio img {
+    border-radius: 15px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 #about {
@@ -122,6 +129,20 @@ h2 {
     color: white;
 }
 
+#footer i {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#footer .btn-floating {
+    border: 1px solid white;
+
+    margin: 0 5px;
+    border-radius: 100%;
+}
+
 
 #footer h4 {
     font-weight: bold;
@@ -136,7 +157,6 @@ h2 {
 #footer p {
     font-size: 18px;
 }
-
 
 #footer-bottom {
     padding-top: 15px;
