@@ -61,16 +61,6 @@ h1 {
 }
 
 
-.separatore-color-black::before,
-.separatore-color-black::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: calc((100% - 60px) / 2);
-    height: 3px;
-    background-color: black;
-}
 
 h2 {
     font-weight: bold;
@@ -87,5 +77,33 @@ h2 {
     border-radius: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
 
+#about {
+    background-color: #1abc9c;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+
+.color-black::before,
+.color-black::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+    background-color: black;
 }
