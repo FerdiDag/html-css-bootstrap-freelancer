@@ -76,14 +76,11 @@ h2 {
 }
 
 #portfolio img {
-    padding-bottom: 20px;
-
-}
-
-#portfolio img {
+    margin-bottom: 20px;
     border-radius: 15px;
-    border-bottom-left-radius: 20px;
+
 }
+
 
 #about {
     background-color: #1abc9c;
@@ -111,9 +108,6 @@ h2 {
     background-color: black;
 }
 
-.button {
-    padding-top: 20px;
-}
 
 .btn {
     border: 2px solid white;
@@ -134,13 +128,17 @@ h2 {
     font-size: 20px;
 
 
+
 }
 
 #footer .btn-floating {
+    display: inline-block;
     border: 1px solid white;
-
     margin: 0 5px;
     border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    padding: 20px;
 }
 
 
