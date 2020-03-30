@@ -2,8 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .jumbotron {
     padding-top: 120px;
     background-color: #1abc9c;
@@ -11,10 +9,8 @@ body {
 }
 
 .jumbotron img {
-
     height: 300px;
 }
-
 
 .navbar {
     padding-top: 20px;
@@ -78,9 +74,7 @@ h2 {
 #portfolio img {
     margin-bottom: 20px;
     border-radius: 15px;
-
 }
-
 
 #about {
     background-color: #1abc9c;
@@ -108,7 +102,6 @@ h2 {
     background-color: black;
 }
 
-
 .btn {
     border: 2px solid white;
     border-radius: 10px;
@@ -126,9 +119,6 @@ h2 {
 #footer i {
     color: white;
     font-size: 20px;
-
-
-
 }
 
 #footer .btn-floating {
@@ -140,7 +130,6 @@ h2 {
     width: 60px;
     padding: 20px;
 }
-
 
 #footer h4 {
     font-weight: bold;
